@@ -151,23 +151,21 @@ h1 {
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
     cursor: pointer;
+    border: 1px solid transparent;
 }
 
-/* .header__list-link:not(:nth-child(5)) {
-    margin-right: 85px;
-} */
 
 .header__list-link:hover {
-    border-bottom: 2px solid #FF9900;
+    border-bottom: 1px solid #FF9900;
 }
 
 .header__list-link:focus {
-    border: 2px solid #FF9900;
+    border: 1px solid #FF9900;
 }
 
 .header__list-link:active {
     color: #E1670E;
-    border-bottom: 2px solid #E1670E;
+    border-bottom: 1px solid #E1670E;
 }
 
 .header__btn {
@@ -673,6 +671,7 @@ h1 {
     font-size: 24px;
     line-height: 32px;
     font-weight: 800;
+    border: 1px solid transparent;
     transition-property: color, border;
     transition-duration: 1s;
     transition-timing-function: ease;
